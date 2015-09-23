@@ -70,3 +70,60 @@ rect(170, 40, 20, 10);
 
 fill(0);
 rect(170, 60, 20, 10);
+
+//Bat Symbol (Shape goes from top left ear cloclwise in points)
+
+//Do i keep line commands?
+
+line(100, 80, 120, 100);
+line(120, 100, 140, 80);
+
+
+//incorect ask Mr. Gordon
+
+beginShape();
+
+vertex(100, 80);
+vertex(120, 100);
+vertex(140, 80);
+curveVertex(140, 80);
+curveVertex(170, 80);
+curveVertex(170, 80);
+curveVertex(140, 80);
+
+curveVertex(170, 80);
+curveVertex(170, 80);
+curveVertex(270, 180);
+curveVertex(220, 130);
+
+curveVertex(240, 150);
+curveVertex(220, 130);
+curveVertex(170, 150);
+curveVertex(170, 150);
+
+curveVertex(190, 170);
+curveVertex(170, 150);
+curveVertex(120, 170);
+curveVertex(120, 170);
+
+curveVertex(50, 170);
+curveVertex(120, 170);
+curveVertex(70, 150);
+curveVertex(120, 170);
+
+curveVertex(70, 150);
+curveVertex(70, 150);
+curveVertex(20, 130);
+curveVertex(0, 150);
+
+curveVertex(20, 130);
+curveVertex(20, 130);
+curveVertex(70, 80);
+curveVertex(20, 230);
+
+curveVertex(70, 80);
+curveVertex(70, 80);
+curveVertex(100, 80);
+curveVertex(100, 80);
+
+endShape();
